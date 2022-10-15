@@ -1,5 +1,5 @@
 const { photo } = require('../../use-cases');
-const errors = require('../../errors/errors');
+const errors = require('../../errors/errors.js');
 
 module.exports = class PhotoController {
   async getAllPhotos(_, res, next) {

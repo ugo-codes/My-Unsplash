@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const photoScheme = require("./photoSchema")
+const photoScheme = require("./photoSchema.js")
 
 const photoModel = mongoose.model("Photo", photoScheme)
 
