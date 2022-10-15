@@ -2,7 +2,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 const Database = require('./database.js');
-const photoModel = require('./phtotDB/photoModel.js');
+const photoModel = require(__dirname + '/phtotDB/photoModel.js');
 const PhotoDB = require('./PhtotDB/photoDB.js');
 const PhotoDBAPI = require('./PhtotDB/photoDBAPI.js');
 
